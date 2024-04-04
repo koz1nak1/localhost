@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('185.66.91.129','shasko', 'Password_1', 'test_login');
+$conn = new mysqli('localhost', 'sashko', 'Y8bmtKWhr4sX!', 'test_login');
 
 if ($conn->connect_error) {
     die("ERROR: Unable to connect: " . $conn->connect_error);

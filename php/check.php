@@ -13,7 +13,7 @@
 
  $pass = md5($pass."hui1");
 
- $mysql = new mysqli('localhost','sashko','Password_1','test_login');
+ $mysql = new mysqli('localhost','sashko','Y8bmtKWhr4sX!','test_login');
  $mysql->query("INSERT INTO `users` (`login`,`pass`, `name`) VALUES('$login','$pass','$name')");
 
  $mysql->close();
